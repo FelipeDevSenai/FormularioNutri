@@ -1,0 +1,127 @@
+body{
+    font-family: 'Montserrat';
+    color: white;
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 52.6%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.747);
+    padding: 15px;
+    border-radius: 15px;
+    width: 42.5%;
+    height: 95%;
+}
+
+
+
+
+legend{
+   padding: 10px;
+   text-align: center;  
+   background-color: rgb(250, 250, 250);
+   border-radius: 5px;
+   color: white;
+   font-family: 'Montserrat';
+   
+}
+
+.inputBox{
+    position: relative;  
+}
+
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+
+}
+
+.labelinput{
+   position: relative;
+   top: 0px;
+   left: 0px;
+   pointer-events: none;
+   transition: .5s; 
+   color: rgb(255, 255, 255);
+}
+
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    color: white;
+}
+
+/* rgb(255, 0, 0) */
+
+#submit{
+    background-image: linear-gradient(to right,rgb(255, 0, 0), rgb(90, 20, 220));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+
+} 
+
+fieldset {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-color: rgb(0, 0, 0);
+}
+
+
+.logo img{
+    position: absolute;
+    left: 47%;
+    top: 75%;
+    width: 11.3%;
+    height: 21%;
+}
+
+.fundoimg img{
+    position: absolute;
+    width: 100%;
+    height: 140%;
+left: 0%;
+top: -40%;
+}
+
+.bolinha {
+    position: absolute;
+    background-color: white;
+    border-radius: 45px;
+    width: 2%;
+    height: 03.5%;
+    left: 71%;
+    top: 45%;
+}
+
+.bolinha2 {
+    position: absolute;
+    background-color: white;
+    border-radius: 45px;
+    width: 2%;
+    height: 03.5%;
+    left: 70.9%;
+    top: 54%;
+}

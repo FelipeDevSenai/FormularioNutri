@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formulario | GN</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="fundoimg">
+      <img src="img/Felipe - imagem.jpg" />
+    </div>
+
+    <div class="bolinha2"></div>
+
+    <div class="bolinha"></div>
+
+    <div class="box">
+      <form action="">
+        <fieldset>
+          <br />
+          <div class="input Box">
+            <input
+              type="text"
+              name="nome"
+              id="nome"
+              class="inputUser"
+              required
+            />
+            <label for="Nome" class="labelinput">Nome Paciente</label>
+          </div>
+          <br />
+          <div class="input Box">
+            <input type="text" name="CPF" id="CPF" class="inputUser" required />
+            <label for="CPF" class="labelinput">CPF</label>
+          </div>
+
+          <p>Sexo:</p>
+          <input
+            type="radio"
+            id="feminino"
+            name="genero"
+            value="feminino"
+            required
+          />
+          <label for="Feminino">Feminino</label>
+          <br />
+          <input
+            type="radio"
+            id="Masculino"
+            name="genero"
+            value="feminino"
+            required
+          />
+          <label for="Masculino">Masculino</label>
+          <br />
+          <input
+            type="radio"
+            id="Outro"
+            name="genero"
+            value="feminino"
+            required
+          />
+          <label for="Outro">Outro</label>
+          <br /><br />
+          <div class="input Box">
+            <label for="Data_Consulta"><b>Dia da Consulta</b></label>
+            <input
+              type="date"
+              name="Data_Consulta"
+              id="Data_Consulta"
+              class="inputUser"
+              required
+            />
+          </div>
+          <br />
+          <div class="input Box">
+            <label for="Hora_Desejada"><b>Hora da Consulta</b></label>
+            <input
+              type="time"
+              name="Hora_Desejada"
+              id="Hora_Desejada"
+              class="inputUser"
+              required
+            />
+          </div>
+          <br />
+          <input type="submit" name="submit" id="submit" />
+        </fieldset>
+      </form>
+    </div>
+
+    <div class="logo">
+      <img src="img/unnamedwhite.png" />
+    </div>
+  </body>
+</html>
